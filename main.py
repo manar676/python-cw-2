@@ -14,13 +14,13 @@ elif operation=="/":
     print("first number / second number")
 else :
     print("wrong")
-bus_capacity=input("enter the number of passengers")
+bus_capacity=35
 people_inbus=input("enter the number of people who want to enter the bus")
 waiting=input("how many people are waiting?")
 empty_seats= bus_capacity - people_inbus 
 if empty_seats>=waiting :
     print("come join us")
-else :
+else :       
     print("the bus is full")
 
 
