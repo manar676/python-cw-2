@@ -5,21 +5,22 @@ First_number =int(input("enter the first number"))
 second_number =int(input("enter the second number"))
 operation =input("what is the operation? ")
 if operation == '+':
-    print("first number + second number")
-elif operation=="_":
-    print("first number _ second number")
+    print(First_number + second_number)
+elif operation=="-":
+    print(First_number - second_number)
 elif operation=="*":
-    print("first number * second number")
+    print(First_number * second_number)
 elif operation=="/":
-    print("first number / second number")
+    print(First_number / second_number)
 else :
     print("wrong")
 bus_capacity=35
-people_inbus=input("enter the number of people who want to enter the bus")
-waiting=input("how many people are waiting?")
+people_inbus=int(input("enter the number of people who want to enter the bus"))
+waiting=int(input("how many people are waiting?"))
 empty_seats= bus_capacity - people_inbus 
 if empty_seats>=waiting :
     print("come join us")
+    print(empty_seats)
 else :       
     print("the bus is full")
 
